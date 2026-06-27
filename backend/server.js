@@ -50,6 +50,10 @@ app.use(cookieParser());
 app.use('/api/auth', authRoutes);
 app.use('/api/tasks', taskRoutes);
 
+app.get('/', (req, res) => {
+  res.send('Backend is running');
+});
+
 // Health Check
 app.get('/health', (req, res) => {
   res.json({
