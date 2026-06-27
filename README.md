@@ -46,7 +46,6 @@ task-tracker/
 ```bash
 cd backend
 npm install
-cp .env.example .env   # fill in your values
 npm run dev
 ```
 
@@ -64,7 +63,6 @@ CLIENT_URL=http://localhost:5173
 ```bash
 cd frontend
 npm install
-cp .env.example .env
 npm run dev
 ```
 
